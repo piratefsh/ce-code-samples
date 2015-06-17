@@ -1,0 +1,34 @@
+body{
+  background-color: rgba(240, 240, 250, 0.3)
+}
+.main{
+  background-color: #00bcbc;
+  color: white;
+  padding: 20px;
+}
+.main p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px
+}
+.photos {
+  margin-top: 20px;
+}
+.photos li {
+  max-width: 200px;
+  height: 300px;
+  font-size: 14px;
+  overflow-y: scroll;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.photos li img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+form input{
+  margin-bottom: 10px;
+}
+input + input{
+  margin-bottom: 0px;
+}
