@@ -24,8 +24,8 @@ $(function(){
       // for each photo from response, add a <li> 
       // with an image to our list of photos
       for (photo of photos){
-        $('.photos').append('<li><img src="' + photo.images.low_resolution.url 
-                            + '"/> <p>' + photo.caption.text + ' by <strong>' + photo.user.username + '</strong></p></li>');
+        $('.photos').append('<li><a target="_blank" href="' + photo.link + '"><img src="' + photo.images.low_resolution.url 
+                            + '"/></a> <p>' + photo.caption.text + ' by <strong>' + photo.user.username + '</strong></p></li>');
       }
     });
   });
