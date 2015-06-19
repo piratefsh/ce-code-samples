@@ -19,7 +19,7 @@ $(function() {
         client_id: clientID
       },
       //when we get the response data, do stuff 
-    }).success(function(response) {
+    }).done(function(response) {
       //remove all existing photos
       $('.photos').html("");
 
@@ -29,10 +29,12 @@ $(function() {
       // with an image to our list of photos
       for (photo of photos) {
         var caption = "";
+        var date = new Date(parseFloat(photo.created_time)*1000)
+        //.substr(6)));
         if (photo.caption) {
           caption = photo.caption.text;
         }
-        $('.photos').append('<li><img src="' + photo.images.low_resolution.url + '"/> <p>' + caption + ' by <strong>' + photo.user.username + '</strong></p></li>');
+        $('.photos').append('<li><a target="_blank" href="' + photo.link + '"><img src="' + photo.images.low_resolution.url + '"/></a><small>' + date + '</small><p>' + caption + ' by <strong>' + photo.user.username + '</strong></p></li>');
       }
     });
   });
