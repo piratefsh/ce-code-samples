@@ -1,0 +1,56 @@
+/*CSS Styles go here*/
+
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker|Roboto|Space Mono');
+
+body {
+  font-family: Roboto;
+  color: #333;
+  margin: 0px;
+}
+
+.container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logo{
+	display: inline-block;
+	margin: 16px 0px;
+}
+
+article {
+}
+
+section{
+  padding-top: 64px;
+  padding-bottom: 0px;
+}
+
+p{
+  line-height: 1.4em;
+}
+
+nav{
+  background-color: #eee;
+  position: fixed; 
+  width: 100%;
+  top: 0px;
+}
+
+nav ul {
+  padding: 0px;
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 700;
+}
+
+
+
