@@ -1,24 +1,13 @@
 /*CSS Styles go here*/
 
+/* import a custom font from https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   font-family: Roboto;
   color: #333;
-  margin: 0px;
   margin-top: 64px;
-}
-
-header {
-  padding: 48px 0px;
-  background-image: url(images/stardust.png);
-  color: white;
-}
-
-header h1 {
-  color: white;
-  font-size: 3em;
-  margin: 0.4em 0;
+  line-height: 1.4em;
 }
 
 .container {
@@ -26,57 +15,17 @@ header h1 {
   margin: 0 auto;
 }
 
-.logo {
-	display: inline-block;
-	margin: 16px 0px;
-  line-height: 64px;
-  margin: 0px;
+/*
+article {
+  border-top: 1px solid #cccccc;
 }
 
-article {
-
+header{
+  padding-bottom: 32px;
 }
 
 section {
   padding-top: 32px;
   padding-bottom: 0px;
 }
-
-p {
-  line-height: 1.4em;
-}
-
-nav {
-  background-color: rebeccapurple;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  height: 64px;
-  vertical-align: middle;
-}
-
-nav ul {
-  padding: 0px;
-  margin: 0px;
-  display: inline-block;
-  float: right;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 8px;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  line-height: 64px;
-}
-
-h1, h2, h3, h4, h5 {
-  color: rebeccapurple;
-  font-weight: 700;
-}
-
-
-
+*/
