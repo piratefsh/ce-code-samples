@@ -1,44 +1,63 @@
 /*CSS Styles go here*/
 
-@import url('https://fonts.googleapis.com/css?family=Permanent Marker|Roboto|Space Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
   font-family: Roboto;
   color: #333;
   margin: 0px;
+  margin-top: 64px;
 }
 
-.container{
+header {
+  padding: 48px 0px;
+  background-image: url(images/stardust.png);
+  color: white;
+}
+
+header h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0.4em 0;
+}
+
+.container {
   max-width: 700px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
 	display: inline-block;
 	margin: 16px 0px;
+  line-height: 64px;
+  margin: 0px;
 }
 
 article {
+
 }
 
-section{
-  padding-top: 64px;
+section {
+  padding-top: 32px;
   padding-bottom: 0px;
 }
 
-p{
+p {
   line-height: 1.4em;
 }
 
-nav{
-  background-color: #eee;
-  position: fixed; 
+nav {
+  background-color: rebeccapurple;
+  position: fixed;
   width: 100%;
   top: 0px;
+  height: 64px;
+  vertical-align: middle;
 }
 
 nav ul {
   padding: 0px;
+  margin: 0px;
   display: inline-block;
   float: right;
 }
@@ -48,7 +67,14 @@ nav ul li {
   margin-right: 8px;
 }
 
-h1, h2, h3, h4, h5{
+nav a {
+  text-decoration: none;
+  color: white;
+  line-height: 64px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: rebeccapurple;
   font-weight: 700;
 }
 
