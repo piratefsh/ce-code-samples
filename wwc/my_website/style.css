@@ -1,29 +1,9 @@
-/*CSS Styles go here*/
-
-/* import a custom font from https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
-  font-family: Roboto;
+  font-family: Arial;
   line-height: 1.4em;
 }
 
-.container {
+article {
   max-width: 700px;
   margin: 0 auto;
 }
-
-/*
-article {
-  border-top: 1px solid #cccccc;
-}
-
-header{
-  padding-bottom: 32px;
-}
-
-section {
-  padding-top: 32px;
-  padding-bottom: 0px;
-}
-*/
